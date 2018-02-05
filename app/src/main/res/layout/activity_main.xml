@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.the_wildo_admin.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GotoJobs"
+        android:text="jobs" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:onClick="GotoArticles"
+        android:layout_height="wrap_content"
+        android:text="articles" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GotoEvent"
+        android:text="events" />
+
+
+    <Button
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="where to study" />
+</LinearLayout>
