@@ -8,6 +8,7 @@ import android.view.View;
 import com.example.admin.the_wildo_admin.activities.ArticleActivity;
 import com.example.admin.the_wildo_admin.activities.EventActivity;
 import com.example.admin.the_wildo_admin.activities.JobsActivity;
+import com.example.admin.the_wildo_admin.activities.StudyActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void GotoStudy(View view) {
-        startActivity(new Intent(getApplicationContext(), EventActivity.class));
+        startActivity(new Intent(getApplicationContext(), StudyActivity.class));
     }
 
 

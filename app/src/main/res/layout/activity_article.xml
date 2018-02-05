@@ -7,10 +7,10 @@
     android:orientation="vertical"
     tools:context="com.example.admin.the_wildo_admin.activities.ArticleActivity">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="upload a pic" />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="upload a pic"/>
 
     <EditText
         android:layout_width="match_parent"

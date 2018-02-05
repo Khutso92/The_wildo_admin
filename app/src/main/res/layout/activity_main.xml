@@ -15,10 +15,9 @@
 
     <Button
         android:layout_width="match_parent"
-        android:onClick="GotoArticles"
         android:layout_height="wrap_content"
+        android:onClick="GotoArticles"
         android:text="articles" />
-
 
     <Button
         android:layout_width="match_parent"
@@ -29,7 +28,7 @@
 
     <Button
         android:layout_width="match_parent"
-
         android:layout_height="wrap_content"
+        android:onClick="GotoStudy"
         android:text="where to study" />
 </LinearLayout>
